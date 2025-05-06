@@ -10,7 +10,7 @@ const PORT = 5000;
 
 // CORS Middleware
 app.use(cors({
-  origin: ["http://localhost:5173", "https://finance-portal-vert.vercel.app/"],
+  origin: ["http://localhost:5173", "https://finance-portal-vert.vercel.app"],
   methods: ["GET", "POST" , "PUT", "DELETE", "PATCH"],
   credentials: true,
 }));
